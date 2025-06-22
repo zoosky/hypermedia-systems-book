@@ -668,7 +668,7 @@ look at adding more sophisticated htmx-driven behaviors.
 ==== Viewing The Details Of A Contact <_viewing_the_details_of_a_contact>
 The next piece of functionality we will implement is the detail page for a
 Contact. The user will navigate to this page by clicking the "View" link in one
-of the rows in the list of contacts. This will take them to the path `/contact/<contact id>` (e.g., `/contacts/42`).
+of the rows in the list of contacts. This will take them to the path `/contacts/<contact id>` (e.g., `/contacts/42`).
 
 This is a common pattern in web development: contacts are treated as resources
 and the URLs around these resources are organized in a coherent manner.
