@@ -1,8 +1,8 @@
 #let leading = 0.6em
-#let body-font = "Libertinus Serif"
-#let secondary-font = "Libertinus Sans"
+#let body-font = "Linux Libertine"
+#let secondary-font = "Linux Biolinum"
 #let display-font = "Jaro"
-#let mono-font = "Berkeley Mono"
+#let mono-font = "Menlo"
 
 #import "./indexing.typ": *
 

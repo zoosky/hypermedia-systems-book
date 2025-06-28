@@ -175,10 +175,14 @@
             columns: (1fr, auto),
             column-gutter: 1em,
             par(
-              it.body,
+              it.element.body,
               hanging-indent: (it.level) * 12pt + 3pt
             ),
-            it.page,
+            context {
+              link(it.element.location(), 
+                str(counter(page).at(it.element.location()).first())
+              )
+            },
           )
         )
       }
